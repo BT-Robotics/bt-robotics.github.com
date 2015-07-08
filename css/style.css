@@ -1,4 +1,33 @@
 html {
-    background-color: #EEEEEE;
-    font-weight: 100;
+  background-color: #EEEEEE;
+  -webkit-font-smoothing: antialiased;
 }
+
+h1 {
+  font-weight: lighter;
+  font-size: 6em;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+.parallax-container {
+  height: 30em;
+}
+
+.container {
+  width: 85%;
+}
+
+.flow-text {
+  font-weight: lighter;
+}
+
+#ind {
+  text-indent: 2em;
+}
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
